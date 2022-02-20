@@ -578,22 +578,22 @@
 	Hover over menu change 
     Followed: https://www.youtube.com/watch?v=-oz3hgI09bk
 {% endcomment %}        
-<script>
-  let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
-  console.log(items)
-  items.forEach(item => {
-    item.addEventListener("mouseover", () => {
-      item.setAttribute("open", true);
-      item.querySelector("ul").addEventListener("mouseleave", () => {
+  <script>
+    let items = document.querySelector(".header__inline-menu").querySelectorAll("details");
+    console.log(items)
+    items.forEach(item => {
+      item.addEventListener("mouseover", () => {
+        item.setAttribute("open", true);
+        item.querySelector("ul").addEventListener("mouseleave", () => {
+          item.removeAttribute("open");
+        });
+      item.addEventListener("mouseleave", () => {
         item.removeAttribute("open");
       });
-    item.addEventListener("mouseleave", () => {
-      item.removeAttribute("open");
     });
-  });
-  
-  });
-</script>
+
+    });
+  </script>
 {% comment %} End of Addition for hover over menu changes {% endcomment %}
         
 {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}

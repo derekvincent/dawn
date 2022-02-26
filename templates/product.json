@@ -15,6 +15,13 @@
           "settings": {
           }
         },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
         "615e2bcc-8552-4ba9-9aed-5b4ae69b4b20": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -23,13 +30,6 @@
             "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
           }
         },
         "price": {
@@ -70,6 +70,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
@@ -105,8 +106,8 @@
       "block_order": [
         "vendor",
         "title",
-        "615e2bcc-8552-4ba9-9aed-5b4ae69b4b20",
         "caption",
+        "615e2bcc-8552-4ba9-9aed-5b4ae69b4b20",
         "price",
         "variant_picker",
         "quantity_selector",

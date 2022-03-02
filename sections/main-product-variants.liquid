@@ -158,6 +158,7 @@
 
               	{% endcomment %}
 	            <script>console.log("Media ID: " + {{ media.alt | json }});</script>
+                <script>console.log("Variant Name: " + {{ variant_name | json }});</script>
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id and variant_name != media.alt -%}
                   {%- capture media_index -%}
                     {%- if media.media_type == 'model' -%}{%- increment model_index -%}

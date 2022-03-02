@@ -763,6 +763,7 @@ class VariantSelects extends HTMLElement {
       this.updateMedia();
       this.updateURL();
       this.updateVariantInput();
+      this.renderMediaGallery();
       this.renderProductInfo();
       this.updateShareUrl();
     }
@@ -833,6 +834,20 @@ class VariantSelects extends HTMLElement {
     if (productForm) productForm.handleErrorMessage();
   }
 
+  renderMediaGallery() {
+    fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.section}`)
+      .then((response) => response.text())
+      .then((responseText) => {
+        const id = `MediaGallery-${this.dataset.section}`;
+        const html = new DOMParser().parseFromString(responseText, 'text/html')
+        const destination = document.getElementById(id);
+        const source = html.getElementById(id);
+
+        if (source && destination) destination.innerHTML = source.innerHTML;
+
+      });
+  }
+  
   renderProductInfo() {
     fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`)
       .then((response) => response.text())

@@ -157,7 +157,7 @@
                 {% comment %}
 
               	{% endcomment %}
-	            <script>console.log("Media ID: " + {{ media.id | json }});</script>
+	            <script>console.log("Media ID: " + {{ media.alt | json }});</script>
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id and variant_name == product.selected_or_first_available_variant.featured_media.alt -%}
                   {%- capture media_index -%}
                     {%- if media.media_type == 'model' -%}{%- increment model_index -%}

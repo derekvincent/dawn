@@ -59,6 +59,12 @@
               endif
             -%}
 			{% endcomment %}
+            {%- liquid
+              assign variant_name = product.selected_or_first_available_variant.featured_media.alt
+              assign variant_images = product.images | where: 'alt', variant_name | map: 'src'
+            -%}
+            <script>console.log("Variant Name: " + {{ variant_name | json }});</script>
+            <script>console.log("Variant Images: " + {{ variant_images | json }});</script>
             {%- if product.selected_or_first_available_variant.featured_media != null -%}
               {%- assign featured_media = product.selected_or_first_available_variant.featured_media -%}
               <li id="Slide-{{ section.id }}-{{ featured_media.id }}" class="product__media-item grid__item slider__slide is-active{% if featured_media.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains featured_media.src %} product__media-item--variant{% endif %}" data-media-id="{{ section.id }}-{{ featured_media.id }}">

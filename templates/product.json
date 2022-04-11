@@ -93,7 +93,7 @@
             "heading": "Care Instructions",
             "icon": "heart",
             "content": "",
-            "page": "kuba-care"
+            "page": "{{ product.metafields.ud_product.product_care.value }}"
           }
         },
         "share": {

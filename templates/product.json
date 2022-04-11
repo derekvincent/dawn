@@ -83,7 +83,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "",
+            "content": "<p>Length: {{ product.metafields.ud_product.product_length | metafield_tag }}<\/p><p>Width: {{ product.metafields.ud_product.product_width | metafield_tag }}<\/p><p>Height: {{ product.metafields.ud_product.product_height | metafield_tag }}<\/p>",
             "page": ""
           }
         },

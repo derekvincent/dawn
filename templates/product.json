@@ -65,7 +65,7 @@
             "heading": "Materials",
             "icon": "leather",
             "content": "",
-            "page": "kuba-material"
+            "page": "{{ product.metafields.ud_product.material_page.value }}"
           }
         },
         "collapsible-row-1": {

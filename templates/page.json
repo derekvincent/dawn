@@ -13,23 +13,25 @@
         "1649716360f6bdfa12-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "kuba-cushions"
           }
         },
         "1649716360f6bdfa12-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "mudcloth-cusions"
           }
         },
         "1649716360f6bdfa12-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
         },
         "2b3393e2-14c7-4090-96f2-b6a087ad83c6": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }

@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -44,7 +45,7 @@
         "2b3393e2-14c7-4090-96f2-b6a087ad83c6"
       ],
       "settings": {
-        "title": "Collections",
+        "title": "Cushions",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 2,

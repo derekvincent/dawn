@@ -329,7 +329,9 @@
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+              {% comment %}
 	        {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
+              {% endcomment %)
         </span>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}

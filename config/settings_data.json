@@ -51,7 +51,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Sometimes, to innovate, to break the bounds of creativity, you need to be a little <strong>Unruly<\/strong>.<\/p>"
             }
           }
         },
@@ -61,7 +61,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": false,
+          "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,

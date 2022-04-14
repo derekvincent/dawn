@@ -1193,6 +1193,9 @@ a.product__text {
 
 .social-share-block {
 	display: inline-block;
+    vertical-align: top;
+    height: 22px;
+    line-height: 22px;
 }
 .social-sharing {
     font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;

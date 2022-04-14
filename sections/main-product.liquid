@@ -291,7 +291,6 @@
               </modal-opener>
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
           {%- when 'share' -%}
-        	<span  class="social-share-block">
             <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>              
               <button class="share-button__button hidden">
                 {% render 'icon-share' %}
@@ -325,14 +324,11 @@
                     <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
                   </button>
                 </div>
-                {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
-              {% comment %}
+          {%- when 'social-sharing' -%}
 	        {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
-              {% endcomment %)
-        </span>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}

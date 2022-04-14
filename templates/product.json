@@ -131,6 +131,11 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "social-sharing": {
+          "type": "text",
+          "settings": {
+          }
         }
       },
       "block_order": [

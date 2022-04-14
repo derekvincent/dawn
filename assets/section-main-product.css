@@ -1189,7 +1189,11 @@ a.product__text {
   flex-shrink: 0;
 }
 
-  /* Social Sharing Icons - Added By Derel */
+  /* Social Sharing Icons - Added By Derek */
+
+.social-share-block {
+	display: inline-block;
+}
 .social-sharing {
     font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
 }

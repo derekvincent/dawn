@@ -133,7 +133,7 @@
           }
         },
         "social-sharing": {
-          "type": "text",
+          "type": "social-sharing",
           "settings": {
           }
         }

@@ -295,6 +295,7 @@
               <button class="share-button__button hidden">
                 {% render 'icon-share' %}
                 {{ block.settings.share_label | escape }}
+                {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
               </button>
               <details id="Details-{{ block.id }}-{{ section.id }}">
                 <summary class="share-button__button">

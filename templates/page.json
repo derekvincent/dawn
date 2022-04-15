@@ -6,60 +6,9 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
-    },
-    "164971636089f2951a": {
-      "type": "collection-list",
-      "disabled": true,
-      "blocks": {
-        "1649716360f6bdfa12-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "kuba-cushions"
-          }
-        },
-        "1649716360f6bdfa12-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "mudcloth-cusions"
-          }
-        },
-        "1649716360f6bdfa12-2": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        },
-        "2b3393e2-14c7-4090-96f2-b6a087ad83c6": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1649716360f6bdfa12-0",
-        "1649716360f6bdfa12-1",
-        "1649716360f6bdfa12-2",
-        "2b3393e2-14c7-4090-96f2-b6a087ad83c6"
-      ],
-      "settings": {
-        "title": "Cushions",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 2,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
-    "main",
-    "164971636089f2951a"
+    "main"
   ]
 }

@@ -2,9 +2,35 @@
   "sections": {
     "main": {
       "type": "collection-list",
+      "blocks": {
+        "1c6cff38-8ec0-4404-95df-58f81e4e0e88": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "kuba-cushions"
+          }
+        },
+        "a94b47fe-ae59-49fa-89b4-0a67691af5a3": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mudcloth-cusions"
+          }
+        }
+      },
+      "block_order": [
+        "1c6cff38-8ec0-4404-95df-58f81e4e0e88",
+        "a94b47fe-ae59-49fa-89b4-0a67691af5a3"
+      ],
       "settings": {
         "title": "Collections",
-        "image_ratio": "square"
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },

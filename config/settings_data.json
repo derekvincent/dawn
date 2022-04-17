@@ -9,10 +9,9 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "text": "As a thank you for supporting our launch get 15% discount at checkout until the end of April.",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }

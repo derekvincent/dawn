@@ -214,47 +214,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "16514912397fd73998": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "1651491239bdc35e74-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
-        "1651491239bdc35e74-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "1651491239bdc35e74-2": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "1651491239bdc35e74-0",
-        "1651491239bdc35e74-1",
-        "1651491239bdc35e74-2"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -263,7 +222,6 @@
     "featured_products",
     "video",
     "multi_column",
-    "collage",
-    "16514912397fd73998"
+    "collage"
   ]
 }

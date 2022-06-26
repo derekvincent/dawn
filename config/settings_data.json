@@ -9,8 +9,9 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
-              "text": "As a thank you for supporting our launch get 15% discount at checkout until the end of April.",
+              "text": "Twenty Percent off for Canda Day Week!  End Sunday July 3rd.",
               "color_scheme": "accent-1",
               "link": ""
             }

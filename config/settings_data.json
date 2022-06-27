@@ -9,9 +9,8 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Twenty Percent off for Canda Day Week!  End Sunday July 3rd.",
+              "text": "Celebrate Canada Day with a store-wide sale! Use CANADADAY2022 at checkout.",
               "color_scheme": "accent-2",
               "link": ""
             }

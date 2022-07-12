@@ -9,6 +9,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Celebrate Canada Day with a store-wide sale! Use CANADADAY2022 at checkout.",
               "color_scheme": "accent-2",

@@ -15,7 +15,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -28,8 +28,8 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/tongs-medium-banner.jpg",
-        "image_2": "shopify:\/\/shop_images\/Mjita-Lifetyle-Image-1-1.jpg",
+        "image": "shopify://shop_images/tongs-medium-banner.jpg",
+        "image_2": "shopify://shop_images/Mjita-Lifetyle-Image-1-1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -55,14 +55,14 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Sometimes, to innovate, to break the bounds of creativity, you need to be a little unruly. For us, unruly encompasses creativity, passion and a thirst for different ways of doing things. Combining different media, approaching the market in a different, an unruly way. Unruly Design. Social adventure (and occasionally misadventure) through art and manufacture. <\/p>"
+            "text": "<p>Sometimes, to innovate, to break the bounds of creativity, you need to be a little unruly. For us, unruly encompasses creativity, passion and a thirst for different ways of doing things. Combining different media, approaching the market in a different, an unruly way. Unruly Design. Social adventure (and occasionally misadventure) through art and manufacture. </p>"
           }
         },
         "button": {
           "type": "button",
           "settings": {
             "button_label": "More About Us",
-            "button_link": "shopify:\/\/pages\/about-us",
+            "button_link": "shopify://pages/about-us",
             "button_style_secondary": false
           }
         }
@@ -112,7 +112,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -128,7 +128,7 @@
           "type": "column",
           "settings": {
             "title": "Manufacturing",
-            "text": "<p>Unruly sources a select range of<br\/>distinctive homewares, furniture and art from around the globe. We work with<br\/>manufacturers, importers, wholesalers and distributors who have that special<br\/>something that complements our curated offering to you. That “special<br\/>something” always starts with design – does an item fit our profile, our<br\/>passion and what Unruly.Design is about. <\/p><p>That’s just the beginning though, our<br\/>matching process then takes a thorough look at the ethics and trade practices<br\/>of a potential partner – not just due diligence, but can we be proud to list<br\/>them and work with them as a partner. Then we examine quality and craftsmanship<br\/>– does the item represent the <em>value<\/em><br\/>we wish to offer to our customers, does the partner stand by their product in<br\/>the same way as us.<\/p><p>Then finally, we examine pricing, inventory<br\/>and availability, location and other supply chain issues.<\/p><p>Many items, though listed under “Manufactured”<br\/>often do not come off a production line and are regularly listed in the<br\/>“one-off” category. This is because we bring a very keen attention to sourcing<br\/>the different, the unusual, the unruly, and partners who share our passion.<\/p>",
+            "text": "<p>Unruly sources a select range of<br/>distinctive homewares, furniture and art from around the globe. We work with<br/>manufacturers, importers, wholesalers and distributors who have that special<br/>something that complements our curated offering to you. That “special<br/>something” always starts with design – does an item fit our profile, our<br/>passion and what Unruly.Design is about. </p><p>That’s just the beginning though, our<br/>matching process then takes a thorough look at the ethics and trade practices<br/>of a potential partner – not just due diligence, but can we be proud to list<br/>them and work with them as a partner. Then we examine quality and craftsmanship<br/>– does the item represent the <em>value</em><br/>we wish to offer to our customers, does the partner stand by their product in<br/>the same way as us.</p><p>Then finally, we examine pricing, inventory<br/>and availability, location and other supply chain issues.</p><p>Many items, though listed under “Manufactured”<br/>often do not come off a production line and are regularly listed in the<br/>“one-off” category. This is because we bring a very keen attention to sourcing<br/>the different, the unusual, the unruly, and partners who share our passion.</p>",
             "link_label": "",
             "link": ""
           }
@@ -137,7 +137,7 @@
           "type": "column",
           "settings": {
             "title": "Artisans",
-            "text": "<p>We work with individuals and cooperatives<br\/>across North America and indeed globally who create that “special something”.<br\/>We deeply respect these artisans and are extremely proud to offer a channel to<br\/>market or to a different customer base to showcase their work.<\/p><p>On the <span style=\"text-decoration:underline\"><strong>artisans page<\/strong><\/span>, you will see detailed<br\/>profiles of each creator and all articles marked with the allow you to click<br\/>through to see the genesis of each piece through their makers story. We are<br\/>always searching for new and unruly pieces, so please <span style=\"text-decoration:underline\">contact us <\/span>if you are an artisan or if you<br\/>know of someone whose work should be taken to a wider audience.<\/p>",
+            "text": "<p>We work with individuals and cooperatives<br/>across North America and indeed globally who create that “special something”.<br/>We deeply respect these artisans and are extremely proud to offer a channel to<br/>market or to a different customer base to showcase their work.</p><p>On the <span style=\"text-decoration:underline\"><strong>artisans page</strong></span>, you will see detailed<br/>profiles of each creator and all articles marked with the allow you to click<br/>through to see the genesis of each piece through their makers story. We are<br/>always searching for new and unruly pieces, so please <span style=\"text-decoration:underline\">contact us </span>if you are an artisan or if you<br/>know of someone whose work should be taken to a wider audience.</p>",
             "link_label": "",
             "link": ""
           }
@@ -146,7 +146,7 @@
           "type": "column",
           "settings": {
             "title": "Mad Scientists",
-            "text": "<p>We<br\/>also have our own small workshop where we experiment with different ideas,<br\/>mediums and finishes. Some of the output from this “lab” will appear on the<br\/>one-offs page, some will be taken to the artisans we partner with for a<br\/>slightly bigger run and some will be reported to the fire department before the<br\/>smoke even clears. Any ideas you may have for design or “mixed media” – please<br\/>let us know, we can’t help ourselves and will make it worth your while – see <span style=\"text-decoration:underline\"><strong>work with us<\/strong><\/span><\/p>",
+            "text": "<p>We<br/>also have our own small workshop where we experiment with different ideas,<br/>mediums and finishes. Some of the output from this “lab” will appear on the<br/>one-offs page, some will be taken to the artisans we partner with for a<br/>slightly bigger run and some will be reported to the fire department before the<br/>smoke even clears. Any ideas you may have for design or “mixed media” – please<br/>let us know, we can’t help ourselves and will make it worth your while – see <span style=\"text-decoration:underline\"><strong>work with us</strong></span></p>",
             "link_label": "",
             "link": ""
           }
@@ -181,7 +181,7 @@
         "video": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "description": "Describe the video",
             "image_padding": false
           }

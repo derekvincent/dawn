@@ -1,8 +1,8 @@
 {
   "current": {
-    "social_pinterest_link": "https:\/\/www.pinterest.ca\/unrulydesign",
-    "social_instagram_link": "https:\/\/www.instagram.com\/unruly.design\/",
-    "favicon": "shopify:\/\/shop_images\/UD_-_Browser_Icon_Orange.png",
+    "social_pinterest_link": "https://www.pinterest.ca/unrulydesign",
+    "social_instagram_link": "https://www.instagram.com/unruly.design/",
+    "favicon": "shopify://shop_images/UD_-_Browser_Icon_Orange.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -27,7 +27,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/Unruly.Design_Logo.png",
+          "logo": "shopify://shop_images/Unruly.Design_Logo.png",
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
@@ -51,7 +51,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Sometimes, to innovate, to break the bounds of creativity, you need to be a little <strong>Unruly<\/strong>.<\/p>"
+              "subtext": "<p>Sometimes, to innovate, to break the bounds of creativity, you need to be a little <strong>Unruly</strong>.</p>"
             }
           }
         },
@@ -75,7 +75,7 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "logo": "shopify:\/\/shop_images\/Unruly.Design_Logo.png",
+          "logo": "shopify://shop_images/Unruly.Design_Logo.png",
           "logo_max_width": 100,
           "color_scheme": "background-1"
         }
@@ -268,7 +268,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },

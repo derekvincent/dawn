@@ -172,7 +172,8 @@
 
          {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
           <div class="footer__follow-on-shop">
-            {{ shop | login_button: action: 'follow' }}
+            {% comment %} Some upstream issue realted to Issue https://github.com/Shopify/dawn/pull/2211, need to follow up {% endcomment %}
+            {% comment %} {{ shop | login_button: action: 'follow' }} {% endcomment %}
           </div>
         {%- endif -%}
 
@@ -513,7 +514,7 @@
       "default": "Subscribe to our emails",
       "label": "t:sections.footer.settings.newsletter_heading.label"
     },
-     {
+    {
       "type": "header",
       "content": "t:sections.footer.settings.header__9.content",
       "info": "t:sections.footer.settings.header__9.info"

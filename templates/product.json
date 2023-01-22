@@ -23,7 +23,7 @@
           }
         },
         "615e2bcc-8552-4ba9-9aed-5b4ae69b4b20": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "type": "shopify://apps/product-reviews/blocks/star_rating/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
             "stars_fill_color": "#000000",
             "star_size": 15,
@@ -55,7 +55,7 @@
           }
         },
         "092ed4ab-cdc8-4586-b311-89ac754dac0c": {
-          "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/product-restore-email\/b190bced-3b7b-47da-a05f-6ea4821c3a77",
+          "type": "shopify://apps/back-in-stock-restock-alerts/blocks/product-restore-email/b190bced-3b7b-47da-a05f-6ea4821c3a77",
           "settings": {
             "em_email_inline_button_display": true,
             "em_email_float_button_display": false,
@@ -113,7 +113,7 @@
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
-            "content": "<p>Length: {{ product.metafields.ud_product.product_length | metafield_tag }}<\/p><p>Width: {{ product.metafields.ud_product.product_width | metafield_tag }}<\/p><p>Height: {{ product.metafields.ud_product.product_height | metafield_tag }}<\/p>",
+            "content": "<p>Length: {{ product.metafields.ud_product.product_length | metafield_tag }}</p><p>Width: {{ product.metafields.ud_product.product_width | metafield_tag }}</p><p>Height: {{ product.metafields.ud_product.product_height | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -182,7 +182,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "text_style": "body"
           }
         }
@@ -212,7 +212,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -221,7 +221,7 @@
           "type": "column",
           "settings": {
             "title": "Hassle-Free Exchanges",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
             "link_label": "",
             "link": ""
           }
@@ -269,7 +269,7 @@
       "type": "apps",
       "blocks": {
         "0e673391-cbf3-4f6b-b7be-8e3712e5b32d": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "type": "shopify://apps/product-reviews/blocks/star_rating/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
             "stars_fill_color": "#000000",
             "star_size": 15,
@@ -279,7 +279,7 @@
           }
         },
         "58041f34-f20c-47ca-9938-a8e9c5d9f5a9": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "type": "shopify://apps/product-reviews/blocks/reviews/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
         }

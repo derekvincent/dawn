@@ -1457,3 +1457,100 @@ a.product__text {
     display: none;
   }
 }
+
+  /* Social Sharing Icons - Added By Derek */
+
+.social-share-block {
+	display: inline-block;
+    vertical-align: top;
+    height: 22px;
+    line-height: 22px;
+}
+.social-sharing {
+    font-family: "Montserrat", "HelveticaNeue", "Helvetica Neue", sans-serif;
+}
+.social-sharing * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.social-sharing a {
+    display: inline-block;
+    color: #323535;
+    border-radius: 2px;
+    margin: 5px 0;
+    height: 22px;
+    line-height: 22px;
+    text-decoration: none;
+    font-weight: normal;
+}
+.social-sharing span {
+    display: inline-block;
+    vertical-align: top;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.social-sharing svg {
+    display: inline-block;
+    vertical-align: top;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+}
+  
+.social-sharing .icon {
+    padding: 0 5px 0 10px;
+}
+.social-sharing .icon:before {
+    line-height: 22px;
+}
+.social-sharing.is-large a {
+    height: 44px;
+    line-height: 44px;
+}
+.social-sharing.is-large a span {
+    height: 44px;
+    line-height: 44px;
+    font-size: 18px;
+}
+.social-sharing.is-large a .icon {
+    padding: 0 10px 0 18px;
+}
+.social-sharing.is-large a .icon:before {
+    line-height: 44px;
+}
+.share-title {
+    font-size: 1.28571em;
+    padding-right: 10px;
+}
+.is-large .share-title {
+    padding-right: 16px;
+}
+.social-sharing.clean a {
+    background-color: white;
+    color: #323535;
+    height: 30px;
+    line-height: 30px;
+}
+.social-sharing.clean a span {
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+}
+.social-sharing.clean a:hover {
+    opacity: 0.8;
+}
+.social-sharing.clean a:hover .share-count {
+    opacity: 0.8;
+}
+.social-sharing.clean a:hover .share-count:after {
+    border-right-color: white;
+}
+.social-sharing.clean a .share-title {
+    font-weight: normal;
+}
+.social-sharing.clean .share-count {
+    top: -1px;
+}  

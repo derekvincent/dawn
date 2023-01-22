@@ -11,8 +11,8 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "text": "Celebrate Canada Day with a store-wide sale! Use CANADADAY2022 at checkout.",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
@@ -31,6 +31,7 @@
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",
+          "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": true,
           "margin_bottom": 0
@@ -50,7 +51,7 @@
             "type": "text",
             "settings": {
               "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "subtext": "<p>Sometimes, to innovate, to break the bounds of creativity, you need to be a little <strong>Unruly<\/strong>.<\/p>"
             }
           }
         },
@@ -60,7 +61,7 @@
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": false,
+          "newsletter_enable": true,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
